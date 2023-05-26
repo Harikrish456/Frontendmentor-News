@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css"/>
+  
+  <title>Frontend Mentor | News - Home </title>
+
+</head>
+
+
+<body>
+  <navbar> 
+    <a href="index.html" target="_blank"> <img class="navbar-icon" src="./assets/images/logo.svg"/> </a>
+    <ul class="navbar-items"> 
+      <li> <a href="./pages/new.html" class="navbar-link" target="_blank"> New </a> </li>
+      <li> <a href="./pages/popular.html" class="navbar-link" target="_blank"> Popular </a> </li>
+      <li> <a href="./pages/trending.html" class="navbar-link" target="_blank"> Trending </a> </li>
+      <li> <a href="./pages/categories.html" class="navbar-link" target="_blank"> Categories </a> </li>
+    </ul>
+  </navbar>
+
+  <div class="home-content">
+    <section class="main--content">
+      <img src="./assets/images/image-web-3-desktop.jpg" class="large-image"/>
+      <div class="main--subcontent">
+        <p class="large-image--title"> The Bright Future of Web 3.0? </p>
+        <div class="main--description"> 
+          <p class="large-image--description"> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise? </p>
+          <button class="read-more" onclick="ReadMore()" > Read more </button>
+        </div>
+      </div>
+    
+    </section>
+    <section class="side--content">
+      <div class="news-section">
+        <p class="news-title"> New </p>
+        <a href="#" target="_blank" class="news-link">  Hydrogen VS Electric Cars </a>
+        <p class="headline-description"> Will hydrogen-fueled cars ever catch up with EVs?</p>
+        <hr>
+        <a href="#" target="_blank" class="news-link">  The Downsides of AI Artistry  </a>
+        <p class="headline-description"> What are the possible adverse effects of on-demand AI image generation?</p>
+        <hr>
+        <a href="#" target="_blank" class="news-link"> Is VC Funding Drying Up?   </a>
+        <p class="headline-description"> Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+    </section>
+  </div>
+  
+  <div class="articles"> 
+
+    <div class="article-item"> 
+      <div>
+        <img src="./assets/images/image-retro-pcs.jpg" class="article-image"/>
+      </div>
+      <div class="article-data">
+        <h1 class="article-number"> 01 </h1>
+        <p class="article-title"> Reviving Retro PCs </p>
+        <p class="article-description"> What happens when old PCs are given modern upgrades? </p>
+      </div>
+    </div>
+
+    <div class="article-item"> 
+      <div>
+        <img src="./assets/images/image-top-laptops.jpg" class="article-image"/>
+      </div>
+      <div class="article-data">
+        <h1 class="article-number"> 02 </h1>
+        <p class="article-title"> Top 10 Laptops of 2023 </p>
+        <p class="article-description"> Our best picks for various needs and budgets </p>
+      </div>
+    </div>
+
+    <div class="article-item"> 
+      <div>
+        <img src="./assets/images/image-gaming-growth.jpg" class="article-image"/>
+      </div>
+      <div class="article-data">
+        <h1 class="article-number"> 03 </h1>
+        <p class="article-title"> The Growth of Gaming </p>
+        <p class="article-description"> How the pandemic has sparked fresh oppurtunities </p>
+      </div>
+  </div>
+  </div>
+</body>
+
+<footer> 
+  <p> Programmed by <a href="https://www.linkedin.com/in/harikrish-somu-1293a326a/"> Harikrish Somu </a> </p>
+</footer>
+
+<script src="main.js"> </script>
+</html>
